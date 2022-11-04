@@ -4,16 +4,16 @@ import image2 from "../images/programmingUndraw.svg";
 
 function Intro() {
   return (
-    <div className="h-full  bg-gray-100 mt-5 md:py-24 py-12 md:py-40">
+    <div className="h-full  bg-gray-100 mt-5 md:py-24 py-12 md:py-40 shadow-xl">
       <div className="text-center flex justify-center items-center space-y-5 md:space-y-16 flex-col ">
         <div className="md:flex justify-center  ">
           <img className="w-40 md:w-52" src={image} alt="" />
         </div>
         <div>
-          <p className="font-extrabold md:text-6xl md:mb-10 mb-5">
+          <p className="font-extrabold md:text-6xl md:mb-10 text-3xl mb-5">
             HEY,I'M PROTTOY
           </p>
-          <p className="font-medium md:text-3xl md:mx-32 mx-10 md:mb-28">
+          <p className="md:font-medium font-normal md:text-3xl text-gray-500 md:mx-32 mx-10 md:mb-28 text-xl ">
             A frontend-focused web developer creates the user interface of
             websites and web applications that leads to the success of the
             overall product.
