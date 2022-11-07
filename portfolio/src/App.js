@@ -14,14 +14,14 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App md:flex md:items-center">
       <div className="p-10">
         <Navbar />
       </div>
       <div className="fixed">
         <Sidebar />
       </div>
-      <div>
+      <div className="md:w-11/12">
         <div data-aos="zoom-in">
           <Intro />
         </div>

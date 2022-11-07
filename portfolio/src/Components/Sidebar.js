@@ -6,7 +6,7 @@ import EmailTwoToneIcon from "@mui/icons-material/EmailTwoTone";
 
 function Sidebar() {
   return (
-    <div className="w-14 absolute top-10 mt-20 hidden md:block  rounded shadow-lg ml-2 bg-white z-50">
+    <div className="w-14  top-10 mt-20 hidden md:block fixed rounded shadow-lg ml-2 bg-white z-50">
       <ul className="mx-2 my-10">
         <li className="mb-10 hover:bg-gray-300 hover:scale-110 duration-500">
           <a

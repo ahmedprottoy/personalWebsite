@@ -49,7 +49,7 @@ function Navbar() {
           {link.map((link) => (
             <li
               key={link.name}
-              className="md:ml-8 text-xl md:my-0 my-7 mr-8 md:mr-0 md:hover:scale-110 hover:scale-105  duration-300"
+              className="md:ml-8 text-xl cursor-pointer md:my-0 my-7 mr-8 md:mr-0 md:hover:scale-110 hover:scale-105  duration-300"
             >
               <Link
                 to={link.link}
