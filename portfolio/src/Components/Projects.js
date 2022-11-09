@@ -80,9 +80,9 @@ const Projects = () => {
               ExpressIT
             </p>
             <p className=" text-base text-slate-700 ">
-              A Google Speech API-integrated Android application that more
-              correctly converts speech into text or texts into speech, with a
-              focus on helping persons with disabilities interact with others.
+              A Google Speech API-integrated Android Application That Is Used To
+              Correctly Converts Speech into Text or Texts into Speech, with a
+              Focus on Helping Persons With Disabilities Interact With Others.
               <br /> <br /> Built with Java & Android Studio
             </p>
 
