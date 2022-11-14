@@ -10,12 +10,12 @@ function Intro() {
           <img className="w-40 md:w-60" src={image} alt="" />
         </div>
         <div>
-          <p className="font-extrabold md:text-6xl md:mb-10 text-3xl mb-5">
+          <p className="font-extrabold md:text-7xl md:mb-10 text-3xl mb-5">
             HEY,I'M PROTTOY
           </p>
-          <p className="md:font-medium font-normal md:text-3xl text-gray-500 md:mx-32 mx-10 md:mb-28 text-xl ">
-            A Full Stack Web Developer Passionate About Creating Elegant
-            Websites with a Clean & User-Friendly Experience.
+          <p className="md:font-medium font-normal md:text-4xl text-gray-500 md:mx-32 mx-10 md:mb-28 text-xl ">
+            A Web Developer Passionate About Creating Elegant Websites with a
+            Clean & User-Friendly Experience.
           </p>
         </div>
         <div>

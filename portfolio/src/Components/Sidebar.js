@@ -3,10 +3,11 @@ import FacebookTwoToneIcon from "@mui/icons-material/FacebookTwoTone";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailTwoToneIcon from "@mui/icons-material/EmailTwoTone";
+import { Link } from "react-scroll";
 
 function Sidebar() {
   return (
-    <div className="w-14  top-10 mt-20 hidden md:block fixed rounded shadow-lg ml-2 bg-white z-50">
+    <div className="w-14  top-40 mt-20 hidden md:block fixed rounded shadow-lg ml-2 bg-white z-50">
       <ul className="mx-2 my-10">
         <li className="mb-10 hover:bg-gray-300 hover:scale-110 duration-500">
           <a
@@ -28,19 +29,19 @@ function Sidebar() {
         </li>
 
         <li className="mb-10 hover:bg-gray-300 hover:scale-110 duration-500">
-          <a href="404 not found" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/prottoy-ahmed-b07b08243/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon sx={{ fontSize: 40 }} />
           </a>
         </li>
 
         <li className="mb-10 hover:bg-gray-300 hover:scale-110 duration-500">
-          <a
-            href="mailTo:prottoy.r.ahmed@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link to={"Contact"} target="_blank" rel="noreferrer">
             <EmailTwoToneIcon sx={{ fontSize: 40 }} />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
