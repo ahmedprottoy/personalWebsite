@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import newsify from "../images/newsifyM.png";
 import buzztalk from "../images/buzztalk.jpg";
 import expressIT from "../images/expressit.png";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import tolltracker from "../images/tolltracker.jpg";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 const Projects = () => {
@@ -33,9 +34,9 @@ const Projects = () => {
             <p className=" text-xl mb-16 text-slate-700 ">
               An Interactive Social media Platform for Making Contact,
               Connecting with People, and Interacting with Them by Exchanging
-              Views and Ideas. Also used <b>Socket.IO</b> to provide a
-              one-to-one chat system, as well as <b>Tiptap</b>, a headless
-              editor framework for writing & editing blogs.
+              Views and Ideas. Used <b>Socket.IO</b> to provide a one-to-one
+              chat system, as well as <b>Tiptap</b>, a headless editor framework
+              for writing & editing blogs.
               <br /> <br /> Built with React.js, Node.js, Express.js & MySql
             </p>
 
@@ -66,6 +67,33 @@ const Projects = () => {
 
             <a
               href="https://github.com/makarov009/NEWSIFY"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fa-brands fa-github fa-3x"></i>
+            </a>
+          </div>
+        </div>
+
+        <div
+          data-aos="zoom-in"
+          className="md:w-10/12 flex md:flex-row items-center flex-col md:my-32 mt-20"
+        >
+          <img className="md:w-3/5 w-3/4 mr-5" src={tolltracker} alt="" />
+          <div className="my-7">
+            <p className="md:text-3xl md:text-start text-center text-2xl mb-7 md:mb-10">
+              TOLL TRACKER <span className="text-base"> ( In Progress )</span>
+            </p>
+            <p className=" text-xl mb-16 text-slate-700 ">
+              A website where transportation companies and drivers can pay tolls
+              en route prior to their journey for an efficient journey &
+              automate the entire system.
+              <br /> <br /> Built with React.js, Node.js, Express.js, MongoDB &
+              Stripe
+            </p>
+
+            <a
+              href="https://github.com/makarov009/Toll-Tracker"
               target="_blank"
               rel="noreferrer"
             >

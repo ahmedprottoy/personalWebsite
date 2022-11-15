@@ -11,7 +11,7 @@ function Intro() {
         </div>
         <div>
           <p className="font-extrabold md:text-5xl md:mb-10 text-3xl mb-5">
-            HEY,I'M PROTTOY
+            HEY,I'M PROTTOY.
           </p>
           <p className="md:font-medium font-normal md:text-2xl text-gray-500 md:mx-32 mx-10 md:mb-28 text-xl ">
             A Web Developer Passionate About Creating Elegant Websites with a
