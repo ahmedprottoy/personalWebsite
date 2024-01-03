@@ -20,7 +20,7 @@ function Sidebar() {
         </li>
         <li className="mb-10 hover:bg-gray-300 hover:scale-110 duration-500">
           <a
-            href="https://github.com/makarov009"
+            href="https://github.com/ahmedprottoy"
             target="_blank"
             rel="noreferrer"
           >
@@ -30,7 +30,7 @@ function Sidebar() {
 
         <li className="mb-10 hover:bg-gray-300 hover:scale-110 duration-500">
           <a
-            href="https://www.linkedin.com/in/prottoy-ahmed-b07b08243/"
+            href="https://www.linkedin.com/in/prottoy-ahmed/"
             target="_blank"
             rel="noreferrer"
           >

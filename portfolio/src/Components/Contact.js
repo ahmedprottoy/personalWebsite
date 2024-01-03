@@ -163,7 +163,7 @@ const Contact = () => {
             hover:scale-105
           "
                 >
-                  Contact Us
+                  Contact Me
                 </button>
               </div>
             </form>

@@ -19,7 +19,7 @@ const Projects = () => {
 
         <p className="md:text-3xl text-xl text-center font-light">
           {" "}
-          Here you will find the projects I've worked on in the past few years !
+          Here you will find the projects I've worked on  !
         </p>
 
         <div
@@ -82,14 +82,14 @@ const Projects = () => {
           <img className="md:w-3/5 w-3/4 mr-5" src={tolltracker} alt="" />
           <div className="my-7">
             <p className="md:text-3xl md:text-start text-center text-2xl mb-7 md:mb-10">
-              TOLL TRACKER <span className="text-base"> ( In Progress )</span>
+              TOLL TRACKER <span className="text-base"></span>
             </p>
             <p className=" text-xl mb-16 text-slate-700 ">
               A website where transportation companies and drivers can pay tolls
               en route prior to their journey for an efficient journey &
               automate the entire system.
-              <br /> <br /> Built with React.js, Node.js, Express.js, MongoDB &
-              Stripe
+              <br /> <br /> Built with React.js, Node.js, Express.js, MySQL &
+              Stripe API
             </p>
 
             <a
@@ -127,6 +127,11 @@ const Projects = () => {
             </a>
           </div>
         </div>
+
+        <a href="https://github.com/ahmedprottoy" className="flex flex-row ">
+          <i class="fa-brands fa-github fa-3x mr-3"></i>
+          <p className="text-2xl"> See more Projects on my Github</p>
+        </a>
       </div>
     </div>
   );
